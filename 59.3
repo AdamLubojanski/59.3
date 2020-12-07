@@ -1,0 +1,63 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+class moc {
+    private:
+    vector <int> moc_liczby;
+
+    public:
+    moc() {
+        for(int i=0;i<10;i++) tab[i] = 0;
+    }
+    
+    void wstaw() {
+    	int index
+    	int liczba
+        index--;
+        tab[index]++;
+        if(index == 0) {
+            moc_liczby.push_back(liczba);
+        }
+    }
+    void wypisz() {
+        for(int i=0;i<10;i++) cout<<i+1<<": "<<tab[i];
+
+    }
+};
+
+class oblicz_moc {
+    private:
+    int moc = 0;
+
+    public:
+    liczby(int n) {
+        for(int c = oblicz_moc(n); c > 10; c = oblicz_moc(c)) 
+        moc.wstaw(moc, n);
+        int num = n;
+        vector <int> liczba;
+        int liczba=n%10;
+        liczba.push_back();
+        n = n / 10;
+		moc++;
+        return n;
+    }
+};
+
+
+class pliki() {
+	ifstream plik1;
+	plik1.open("c:\\plik1.txt");
+    
+};
+class koniec{
+	plik1.close();
+};
+
+int main()
+{
+	moc.wypisz();
+    return 0;
+}
